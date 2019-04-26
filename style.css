@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald");
+
+
+body {
+    background-color: #000000;
+    font-family: "Oswald", "Futura", sans-serif;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#page {
+    background-color: #403c3b;
+    margin: 0 auto 0 auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h1 {
+    background: url(images/qqq.png) no-repeat center;
+    text-align: center;
+    text-indent: -1000%;
+    height: 300px;
+    line-height: 75px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 30px 10px 20px 10px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    display: inline-block;
+    margin: 0 0 23px 0;
+}
+
+
+#create-btn {
+    background-color: #cb6868;
+    color: #f3dad1;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-family: "Oswald", "Futura", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    
+    margin: 20px auto 20px auto;
+    background-color: #999999;
+    color: #333333;
+    font-size: 24px;
+    width: 30%;
+    padding: 4px 6px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+}
+.remove-btn {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 50px;
+    background: url(images/icon-trash.png) no-repeat right, center;
+    float: right;
+}
+
+.user {
+    position: relative;
+    background-color: #ec8b68;
+    color: #ffffff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    text-align: left;
+    height: 50px;
+    padding-left: 1em;
+    padding: 5px;
+}
+
+.age {
+    color: black;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #403c3b;
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+        
+    }
+}
